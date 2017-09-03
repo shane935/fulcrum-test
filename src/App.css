@@ -1,0 +1,215 @@
+
+
+body, html{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+h2{
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+h3{
+  font-size: 12px;
+  margin: 0 0 10px;;
+}
+
+
+.container{
+  padding: 0 20px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pull-left{
+  float: left;
+}
+
+.pull-right{
+  float: right;
+}
+
+.nav-bar{
+  height: 51px;
+  background-color: #272733;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+
+.logo{
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0;
+  line-height: 51px;
+  vertical-align: middle;
+}
+.control-bar{
+  padding: 20px 0;
+  background-color: #f6f6f7;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.arrow{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+}
+.menu-wrapper{
+  line-height: 51px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu{
+  width: 14px;
+}
+
+.refresh{
+  width: 24px;
+  vertical-align: middle;
+  margin-left:8px;
+}
+
+.overall-stats{
+  margin-bottom: 25px;
+}
+
+label{
+  color: #b6b6bc;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+input{
+  height: 35px;
+  background-color: white;
+  border: 1px solid #e0e0e7;
+  margin-right: 30px;
+  border-radius: 4px;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+input.small{
+ width: 72px;
+ margin-left: 10px;
+}
+
+input::-moz-placeholder{
+  color: b6b6bc;
+}
+
+.styled-select {
+  background: url(./assets/down_arrow.png) no-repeat 96% 48%;
+  background-size: 9px 6px;
+  height: 35px;
+  overflow: hidden;
+  width: 240px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #e0e0e7;
+  margin-right: 30px;
+  border-radius: 4px;
+}
+
+.styled-select select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 35px;
+  padding: 5px; /* If you add too much padding here, the options won't show in IE */
+  width: 268px;
+  color: #b6b6bc;
+  padding-left: 15px;
+}
+
+.styled-select select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.styled-select select::-ms-expand {
+  display: none;
+}
+
+.stat-card{
+  display: inline-block;
+  border: 1px solid #d7d7d7;
+  margin-right: 10px;
+  min-width: 150px;
+  padding: 10px;
+  background-color: white;
+}
+
+.stat-card:hover{
+  cursor: pointer;
+}
+
+.stat-card.dragging{
+  opacity: 0.4;
+}
+
+.stat-card-value{
+  font-size: 20px;
+  margin-bottom: 9px;
+}
+
+.stat-card-percentage{
+  font-size:13px;
+}
+
+.stat-card-percentage.green{
+  color: #1ed085;
+}
+
+.stat-card-percentage.red{
+  color: #e01010;
+}
+
+.table-arrow{
+  height: 11px;
+  margin-right: 20px;
+}
+
+table{
+  max-width: 1000px;
+  border-collapse: collapse;
+}
+
+th{
+  padding: 20px;
+  background-color: #ededed;
+  border:  1px solid #cfd8d8;
+  white-space: nowrap;
+}
+
+td{
+  padding: 15px;
+  border:  1px solid #cfd8d8;
+  text-align: center;
+  font-size: 13px;
+  color: #a2a2a6;
+}
+
+td:first-of-type{
+  text-align: left;
+  font-size: 14px;
+  color: #5f5f62;
+  max-width: 300px;
+  width: 100%;
+}
+
+th:first-of-type{
+  text-align: left;
+}
