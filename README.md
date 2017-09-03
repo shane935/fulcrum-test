@@ -14,3 +14,4 @@ Things I would change with more time:
 2) Add tests
 3) Convert the css to scss 
 4) Look at ways to simplfy storing state in the url
+5) Better UX in the drag and drop implementation  
