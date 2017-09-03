@@ -6,6 +6,7 @@ Things to note:
 2) To run:
   1) npm install 
   2) npm start
+3) Some of the libraries used are overkill for an app this size but where introduced to allow the app to easily grow.
 
 Things I would change with more time:
 
