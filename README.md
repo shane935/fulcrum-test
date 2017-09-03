@@ -1,5 +1,12 @@
 ##  Test for Fulcrum
 
+Things to note:
+
+1) I used create react app
+2) To run:
+  1) npm install 
+  2) npm start
+
 Things I would change with more time:
 
 1) Use either flow or typescript
